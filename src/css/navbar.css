@@ -1,0 +1,85 @@
+.navb{
+    padding: 0.5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    background-color: white;
+}
+
+.navigate{
+    border: 2px solid #edeeef;
+    box-shadow: 0px 0px 10px #edeeef;
+    border-radius: 5px;
+    padding: 0.1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: fit-content;
+    cursor: pointer;
+    font-weight:600;
+    font-size: 1rem;
+    margin-left: 2rem;
+    background-color: white;
+}
+
+.navigate img{
+    background-color: white;
+}
+
+.navigate p{
+    background-color: white;
+}
+
+.assetIcon{
+    opacity: 0.5;
+    width: 20px;
+}
+
+.drop-menu{
+    z-index: 999;
+    position: absolute;
+    top: 90%;
+    margin-left: 2rem;
+    background-color: white;
+    border: 2px solid #edeeef;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #edeeef;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    background-color: #f8f8fa;
+}
+
+.func-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: inherit;
+}
+
+.func-container label{
+    font-weight: 600;
+    color: #aaabac;
+    background-color: inherit;
+}
+
+.func-container select{
+    padding: 0.2rem 0.5rem;
+    border: 2px solid #edeeef;
+    border-radius: 8px;
+    font-weight: 600;
+    width: 7rem;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.func-container select option{
+    font-weight: 600;
+    cursor: pointer;
+}

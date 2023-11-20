@@ -1,0 +1,105 @@
+.card{
+    border-radius: 5px;
+    border: 2px solid #e0dfdf;
+    box-shadow: 0px 0px 10px #e0dfdf;
+    width: 100%;
+    padding: 0.5rem;
+    min-height: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    background-color: white;
+}
+
+.card img{
+    width: 15px;
+    background-color: inherit;
+}
+
+.card .one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    background-color: inherit;
+}
+
+.card .one p{
+    color: #777777;
+    background-color: inherit;
+}
+
+.card .profile-pic-cont{
+    position: relative;
+    background-color: inherit;
+}
+
+.card .profile-pic{
+    width: 25px;
+}
+
+.card .profile-pic-cont .green-dot{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    bottom: 0;
+    right: 0;
+}
+
+.card .profile-pic-cont .yellow-dot{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
+
+.card .two{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: inherit;
+}
+
+.card .two p{
+    font-weight: 600;
+    background-color: inherit;
+}
+
+.card .three{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: inherit;
+}
+
+.card .three .prio-cont{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 3px;
+    text-align: center;
+    background-color: inherit;
+}
+
+.card .three .feature-cont{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 1px;
+    background-color: inherit;
+}
+
+.card .three .feature-cont img{
+    opacity: 0.25;
+    width: 10px;
+}
+
+.card .three .feature-cont p{
+    background-color: inherit;
+}
